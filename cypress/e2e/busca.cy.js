@@ -20,7 +20,7 @@ describe('US-012-Funcionalidade: Busca de filmes', () => {
         })
     });
 
-    it.only('', () => {
+    it('', () => {
         cy.fixture('filmes').each((filmes)=>{
             cy.get('#search-input').clear().type(filmes.titulo)
             cy.get('#search-button').click()

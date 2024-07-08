@@ -27,6 +27,24 @@
         "titulo": "The Batman",
         "ano": 2022,
         "descricao": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler."
+    },
+
+    {
+        "titulo": "Mean Girls",
+        "ano": 2004,
+        "descricao": "Cady Heron is a hit with The Plastics, the A-list girl clique at her new school, until she makes the mistake of falling for Aaron Samuels, the ex-boyfriend of alpha Plastic Regina George."
+    },
+
+    {
+        "titulo": "Aliens",
+        "ano": 1986,
+        "descricao": "When Ripley's lifepod is found by a salvage crew over 50 years later, she finds that terra-formers are on the very planet they found the alien species. When the company sends a family of colonists out to investigate her story—all contact is lost with the planet and colonists. They enlist Ripley and the colonial marines to return and search for answers"
+    },
+
+    {
+        "titulo": "Your Name",
+        "ano": 2016,
+        "descricao": "High schoolers Mitsuha and Taki are complete strangers living separate lives. But one night, they suddenly switch places. Mitsuha wakes up in Taki's body, and he in hers. This bizarre occurrence continues to happen randomly, and the two must adjust their lives around each other."
     }
 ]
 
