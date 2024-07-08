@@ -1,0 +1,32 @@
+[
+    {
+        "titulo": "The Matrix",
+        "ano": 1999,
+        "descricao": "Set in the 22nd century, The Matrix tells the story of a computer hacker who joins a group of underground insurgents fighting the vast and powerful computers who now rule the earth."
+    },
+
+    {
+        "titulo": "Dune: Part Two",
+        "ano": 2024,
+        "descricao": "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family. Facing a choice between the love of his life and the fate of the known universe, Paul endeavors to prevent a terrible future only he can foresee."
+    },
+
+    {
+        "titulo": "The Wind Rises",
+        "ano": 2013,
+        "descricao": "A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane."
+    },
+
+    {
+        "titulo": "Howl's Moving Castle",
+        "ano": 2004,
+        "descricao": "When Sophie, a shy young woman, is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle."
+    },
+
+    {
+        "titulo": "The Batman",
+        "ano": 2022,
+        "descricao": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler."
+    }
+]
+
