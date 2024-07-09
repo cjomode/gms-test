@@ -2,7 +2,7 @@
 
 describe('US-012-Validação do formato de email invalido', () => {
   it('Preencher o campo email de forma inválida', () => {
-    cy.visit(' http://127.0.0.1:8080')
+    cy.visit('/')
     cy.get('#signup-firstname').type('Joao')
     cy.get('#signup-lastname').type('Pedro')
     cy.get('#signup-email').type('umteste.com')

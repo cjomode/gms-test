@@ -6,6 +6,10 @@ describe('US-012-Funcionalidade: Cadastro de membros', () => {
     cy.visit('/')
   });
 
+  afterEach(() => {
+    cy.screenshot()
+  });
+
   it('Deve fazer o cadastro de campos obrigatorios', () => {
     var email = `fabio${Date.now()}@teste.com`
 
@@ -24,12 +28,17 @@ describe('US-012-Funcionalidade: Cadastro de membros', () => {
   });
 
   it('Deve validar senha forte', () => {
-    cy.preencherCadastro('Fabio', 'Araujo', 'fabio123@teste.com', '1213215', 'Teste!123')
+    var email = `fabio${Date.now()}@teste.com`
+    var senha = `Teste@${Date.now()}`
+
+    cy.preencherCadastro('Fabio', 'Araujo', email, '1213215', senha)
     cy.get('#signup-response').should('contain','Cadastro realizado com sucesso!')
   });
 
-  it.only('Deve validar senha fraca', () => {
-    cy.preencherCadastro('Fabio', 'Araujo', 'fab_teste@teste.com', '1213215', 'teste')
+  it('Deve validar senha fraca', () => {
+    var email = `fabio${Date.now()}@teste.com`
+    var senha = `teste${Date.now()}`
+    cy.preencherCadastro('Fabio', 'Araujo', email, '1213215', senha)
     cy.get('#signup-response').should('contain','Senha deve ter pelo menos 8 caracteres, incluir uma letra maiúscula, um número e um caractere especial (!@#$&*)')
   });
 })

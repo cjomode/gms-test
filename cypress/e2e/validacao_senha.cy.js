@@ -2,7 +2,7 @@
 
 describe('template spec', () => {
   it('passes', () => {
-    cy.visit(' http://127.0.0.1:8080')
+    cy.visit('/')
     cy.get('#signup-firstname').type('Luana')
     cy.get('#signup-lastname').type('Vieira')
     cy.get('#signup-email').type('luana@teste.com')
